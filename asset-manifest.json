@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LAs-Exotic-Rides/static/css/main.bc4a744b.css",
-    "main.js": "/LAs-Exotic-Rides/static/js/main.51171e2f.js",
+    "main.js": "/LAs-Exotic-Rides/static/js/main.10aa7f7d.js",
     "static/media/ferraricalifornia.png": "/LAs-Exotic-Rides/static/media/ferraricalifornia.cb9e0fb130125168ac09.png",
     "static/media/LamborghiniDiabloBlue.png": "/LAs-Exotic-Rides/static/media/LamborghiniDiabloBlue.6329bead1f6bbec75905.png",
     "static/media/mclaren1.png": "/LAs-Exotic-Rides/static/media/mclaren1.3755a2777cfeab88fe3d.png",
@@ -33,10 +33,10 @@
     "static/media/carreragt.png": "/LAs-Exotic-Rides/static/media/carreragt.1fd58945a268bb853d50.png",
     "index.html": "/LAs-Exotic-Rides/index.html",
     "main.bc4a744b.css.map": "/LAs-Exotic-Rides/static/css/main.bc4a744b.css.map",
-    "main.51171e2f.js.map": "/LAs-Exotic-Rides/static/js/main.51171e2f.js.map"
+    "main.10aa7f7d.js.map": "/LAs-Exotic-Rides/static/js/main.10aa7f7d.js.map"
   },
   "entrypoints": [
     "static/css/main.bc4a744b.css",
-    "static/js/main.51171e2f.js"
+    "static/js/main.10aa7f7d.js"
   ]
 }
