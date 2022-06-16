@@ -43,8 +43,15 @@ function DropdownMenu() {
         setMenuHeight(height);
     }
 
+    const a = document.querySelector('a')
+    a.onclick = (e) => {
+        e.preventDefault()
+        console.log('clicked')
+    }
+
     function DropdownItem(props) {
         return (
+
             <a href={props.href} className='menu-item' onClick={() => props.goToMenu
                 && setActiveMenu(props.goToMenu)}>
 
