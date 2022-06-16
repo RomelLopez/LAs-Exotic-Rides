@@ -6,7 +6,7 @@ import Lamborghini from './components/CarPages/Lamborghini';
 import McLaren from './components/CarPages/McLaren';
 import Porsche from './components/CarPages/Porsche';
 import RollsRoyce from './components/CarPages/RollsRoyce';
-import { Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 const App = () => {
     return (
