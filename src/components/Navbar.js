@@ -4,7 +4,7 @@ import DirectionsCarFilledIcon from '@mui/icons-material/DirectionsCarFilled';
 import { CSSTransition } from 'react-transition-group';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import AddLocationIcon from '@mui/icons-material/AddLocation';
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -92,11 +92,11 @@ function DropdownMenu() {
             >
                 <div className='menu'>
                     <DropdownItem leftIcon={<ArrowBackIcon />} goToMenu='main'></DropdownItem>
-                    <DropdownItem href="/BMW"> BMW </DropdownItem>
-                    <DropdownItem href="/Ferrari"> Ferrari </DropdownItem>
-                    <DropdownItem href="/Lamborghini"> Lamborghini </DropdownItem>
-                    <DropdownItem href="/McLaren"> McLaren </DropdownItem>
-                    <DropdownItem href="/Porsche"> Porsche </DropdownItem>
+                    <Link to="/BMW"> BMW </Link>
+                    <Link to="/Ferrari"> Ferrari </Link>
+                    <Link to="/Lamborghini"> Lamborghini </Link>
+                    <Link to="/McLaren"> McLaren </Link>
+                    <Link to="/Porsche"> Porsche </Link>
                 </div >
             </CSSTransition >
 
