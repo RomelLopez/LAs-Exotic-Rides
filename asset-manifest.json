@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/LAs-Exotic-Rides/static/css/main.bc4a744b.css",
+    "main.js": "/LAs-Exotic-Rides/static/js/main.51171e2f.js",
+    "static/media/ferraricalifornia.png": "/LAs-Exotic-Rides/static/media/ferraricalifornia.cb9e0fb130125168ac09.png",
+    "static/media/LamborghiniDiabloBlue.png": "/LAs-Exotic-Rides/static/media/LamborghiniDiabloBlue.6329bead1f6bbec75905.png",
+    "static/media/mclaren1.png": "/LAs-Exotic-Rides/static/media/mclaren1.3755a2777cfeab88fe3d.png",
+    "static/media/porschegt3.png": "/LAs-Exotic-Rides/static/media/porschegt3.925e755010c1c4b9be72.png",
+    "static/media/carcollection.png": "/LAs-Exotic-Rides/static/media/carcollection.8b0000cdd120340ab6da.png",
+    "static/media/BMWm8MatteSilver.png": "/LAs-Exotic-Rides/static/media/BMWm8MatteSilver.9f913d728be2058ee90c.png",
+    "static/media/FerrariStealthBlack.png": "/LAs-Exotic-Rides/static/media/FerrariStealthBlack.9f65953639b71c0b03f4.png",
+    "static/media/LamborghiniBlueDiabloRear.png": "/LAs-Exotic-Rides/static/media/LamborghiniBlueDiabloRear.3d5bd222cf1481d029e9.png",
+    "static/media/FerrariLightBlue.png": "/LAs-Exotic-Rides/static/media/FerrariLightBlue.80a53d5ebe996a29e63d.png",
+    "static/media/BMW8serieswhite.png": "/LAs-Exotic-Rides/static/media/BMW8serieswhite.01b785e3370bbc3ea7aa.png",
+    "static/media/porsche1.png": "/LAs-Exotic-Rides/static/media/porsche1.56d4a51b0b440fe2a4e6.png",
+    "static/media/FerrariLightBlueRear.png": "/LAs-Exotic-Rides/static/media/FerrariLightBlueRear.c38ea8ef02e56502fe1e.png",
+    "static/media/BmwM8.png": "/LAs-Exotic-Rides/static/media/BmwM8.4b83bcaaa8af88567ead.png",
+    "static/media/Ferrarif8.png": "/LAs-Exotic-Rides/static/media/Ferrarif8.3315cb15af40073675c8.png",
+    "static/media/PorscheWhiteGas.png": "/LAs-Exotic-Rides/static/media/PorscheWhiteGas.1c542389fa6c8a4ec063.png",
+    "static/media/ferrarif8_2.png": "/LAs-Exotic-Rides/static/media/ferrarif8_2.d674ec193edc55e5f9e5.png",
+    "static/media/FerrariSilver.png": "/LAs-Exotic-Rides/static/media/FerrariSilver.92786f24a6c778b19740.png",
+    "static/media/McLarenBlack.png": "/LAs-Exotic-Rides/static/media/McLarenBlack.8747ff35d5c8a625bcaf.png",
+    "static/media/LamborghiniAventadorBlue.png": "/LAs-Exotic-Rides/static/media/LamborghiniAventadorBlue.9e8b8fce25e5e043c009.png",
+    "static/media/Ferrariblack.png": "/LAs-Exotic-Rides/static/media/Ferrariblack.293e7a0c0fe963b504e8.png",
+    "static/media/LamborghiniUrusyellow.png": "/LAs-Exotic-Rides/static/media/LamborghiniUrusyellow.03a96a65b3dd2d20873d.png",
+    "static/media/ferrari458.png": "/LAs-Exotic-Rides/static/media/ferrari458.940b18be87c928ee0fda.png",
+    "static/media/ferrarisf90.png": "/LAs-Exotic-Rides/static/media/ferrarisf90.e3d70fb2b160f3a178f8.png",
+    "static/media/FerrariSf90red.png": "/LAs-Exotic-Rides/static/media/FerrariSf90red.baa73db8f23a7b660dbc.png",
+    "static/media/LamborghiniUrusgarage.png": "/LAs-Exotic-Rides/static/media/LamborghiniUrusgarage.bc8410d2153067bdefed.png",
+    "static/media/FerrariRedGas.png": "/LAs-Exotic-Rides/static/media/FerrariRedGas.18a474af135f2a57dc0a.png",
+    "static/media/porschecayman.png": "/LAs-Exotic-Rides/static/media/porschecayman.9b77a6bbfb8e52e3563b.png",
+    "static/media/LamborghiniHuracanOrange.png": "/LAs-Exotic-Rides/static/media/LamborghiniHuracanOrange.27db7146a9c8d0f1c6b5.png",
+    "static/media/carreragt.png": "/LAs-Exotic-Rides/static/media/carreragt.1fd58945a268bb853d50.png",
+    "index.html": "/LAs-Exotic-Rides/index.html",
+    "main.bc4a744b.css.map": "/LAs-Exotic-Rides/static/css/main.bc4a744b.css.map",
+    "main.51171e2f.js.map": "/LAs-Exotic-Rides/static/js/main.51171e2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc4a744b.css",
+    "static/js/main.51171e2f.js"
+  ]
+}
