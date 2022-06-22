@@ -1,13 +1,8 @@
 import React, { useState } from 'react'
-import { Navbar, Navitem, DropdownMenu } from "../Navbar.js";
-import CloseIcon from '@mui/icons-material/Close';
-import DriveEtaIcon from '@mui/icons-material/DriveEta';
-import AddBoxIcon from '@mui/icons-material/AddBox';
-import NotificationsIcon from '@mui/icons-material/Notifications';
-import EmailIcon from '@mui/icons-material/Email';
 import mclaren1 from '../CarPhotos/mclaren1.png';
 import McLarenBlack from '../CarPhotos/McLarenBlack.png';
-
+import UniversalNavbar from '../UniversalNavbar';
+import CloseIcon from '@mui/icons-material/Close';
 
 
 const McLaren = () => {
@@ -33,15 +28,7 @@ const McLaren = () => {
     }
     return (
         <div>
-            <Navbar>
-                <Navitem icon={<AddBoxIcon style={{ color: "white" }}></AddBoxIcon>} />
-                <Navitem icon={<NotificationsIcon style={{ color: "white" }}></NotificationsIcon>} />
-                <Navitem icon={<EmailIcon style={{ color: "white" }}></EmailIcon>} />
-                <Navitem icon={<DriveEtaIcon style={{ color: "white" }}></DriveEtaIcon>}>
-                    <DropdownMenu >
-                    </DropdownMenu>
-                </Navitem>
-            </Navbar>
+            <UniversalNavbar />
             <div className={model ? 'model open' : 'model'} >
                 <img src={TempImgSrc} />
                 <CloseIcon onClick={() => setModel(false)} />

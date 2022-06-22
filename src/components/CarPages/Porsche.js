@@ -1,14 +1,10 @@
 import React, { useState } from 'react'
 import CloseIcon from '@mui/icons-material/Close';
-import { Navbar, Navitem, DropdownMenu } from "../Navbar.js";
-import DriveEtaIcon from '@mui/icons-material/DriveEta';
-import AddBoxIcon from '@mui/icons-material/AddBox';
-import NotificationsIcon from '@mui/icons-material/Notifications';
-import EmailIcon from '@mui/icons-material/Email';
 import porsche1 from '../CarPhotos/porsche1.png';
 import porschecayman from '../CarPhotos/porschecayman.png';
 import porschegt3 from '../CarPhotos/porschegt3.png';
 import PorscheWhiteGas from '../CarPhotos/PorscheWhiteGas.png';
+import UniversalNavbar from '../UniversalNavbar.js';
 const Porsche = () => {
 
     let PData = [
@@ -41,15 +37,7 @@ const Porsche = () => {
     }
     return (
         <div>
-            <Navbar>
-                <Navitem icon={<AddBoxIcon style={{ color: "white" }}></AddBoxIcon>} />
-                <Navitem icon={<NotificationsIcon style={{ color: "white" }}></NotificationsIcon>} />
-                <Navitem icon={<EmailIcon style={{ color: "white" }}></EmailIcon>} />
-                <Navitem icon={<DriveEtaIcon style={{ color: "white" }}></DriveEtaIcon>}>
-                    <DropdownMenu >
-                    </DropdownMenu>
-                </Navitem>
-            </Navbar>
+            <UniversalNavbar />
             <div className={model ? 'model open' : 'model'} >
                 <img src={TempImgSrc} />
                 <CloseIcon onClick={() => setModel(false)} />

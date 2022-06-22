@@ -1,10 +1,5 @@
 import React, { useState } from 'react';
 import CloseIcon from '@mui/icons-material/Close';
-import { Navbar, Navitem, DropdownMenu } from "../Navbar.js";
-import DriveEtaIcon from '@mui/icons-material/DriveEta';
-import AddBoxIcon from '@mui/icons-material/AddBox';
-import NotificationsIcon from '@mui/icons-material/Notifications';
-import EmailIcon from '@mui/icons-material/Email';
 import ferrari458 from '../CarPhotos/ferrari458.png';
 import Ferrariblack from '../CarPhotos/Ferrariblack.png';
 import ferraricalifornia from '../CarPhotos/ferraricalifornia.png';
@@ -17,6 +12,7 @@ import ferrarisf90 from '../CarPhotos/ferrarisf90.png';
 import FerrariSf90red from '../CarPhotos/FerrariSf90red.png';
 import FerrariSilver from '../CarPhotos/FerrariSilver.png';
 import FerrariStealthBlack from '../CarPhotos/FerrariStealthBlack.png';
+import UniversalNavbar from '../UniversalNavbar.js';
 
 const Ferrari = () => {
 
@@ -80,15 +76,7 @@ const Ferrari = () => {
     }
     return (
         <>
-            <Navbar>
-                <Navitem icon={<AddBoxIcon style={{ color: "white" }}></AddBoxIcon>} />
-                <Navitem icon={<NotificationsIcon style={{ color: "white" }}></NotificationsIcon>} />
-                <Navitem icon={<EmailIcon style={{ color: "white" }}></EmailIcon>} />
-                <Navitem icon={<DriveEtaIcon style={{ color: "white" }}></DriveEtaIcon>}>
-                    <DropdownMenu >
-                    </DropdownMenu>
-                </Navitem>
-            </Navbar>
+            <UniversalNavbar />
             <div className={model ? 'model open' : 'model'} >
                 <img src={TempImgSrc} />
                 <CloseIcon onClick={() => setModel(false)} />

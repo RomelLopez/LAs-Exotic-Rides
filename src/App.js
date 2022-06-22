@@ -5,7 +5,8 @@ import BMW from './components/CarPages/BMW';
 import Lamborghini from './components/CarPages/Lamborghini';
 import McLaren from './components/CarPages/McLaren';
 import Porsche from './components/CarPages/Porsche';
-import RollsRoyce from './components/CarPages/RollsRoyce';
+
+import Information from "./components/Information";
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
             <BrowserRouter>
                 <Routes>
                     <Route path={process.env.PUBLIC_URL} element={<Main />}></Route>
+                    <Route path="/Information" element={<Information />}> </Route>
                     <Route path="/Ferrari" element={<Ferrari />}></Route>
                     <Route path="/BMW" element={<BMW />}></Route>
                     <Route path="/Lamborghini" element={<Lamborghini />}></Route>
@@ -22,7 +24,7 @@ const App = () => {
                 </Routes>
             </BrowserRouter>
 
-        </div>
+        </div >
     );
 };
 

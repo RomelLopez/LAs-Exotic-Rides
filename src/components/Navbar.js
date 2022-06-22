@@ -92,11 +92,13 @@ function DropdownMenu() {
             >
                 <div className='menu'>
                     <DropdownItem leftIcon={<ArrowBackIcon />} goToMenu='main'></DropdownItem>
-                    <Link to="/BMW"> BMW </Link>
-                    <Link to="/Ferrari"> Ferrari </Link>
-                    <Link to="/Lamborghini"> Lamborghini </Link>
-                    <Link to="/McLaren"> McLaren </Link>
-                    <Link to="/Porsche"> Porsche </Link>
+                    <ul className='listofbrands'>
+                        <li><Link to="/BMW"> BMW </Link></li>
+                        <li><Link to="/Ferrari"> Ferrari </Link></li>
+                        <li><Link to="/Lamborghini"> Lamborghini </Link></li>
+                        <li><Link to="/McLaren"> McLaren </Link></li>
+                        <li><Link to="/Porsche"> Porsche </Link></li>
+                    </ul>
                 </div >
             </CSSTransition >
 

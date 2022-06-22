@@ -6,17 +6,26 @@ import { Navbar, Navitem, DropdownMenu } from "./components/Navbar.js";
 import DriveEtaIcon from '@mui/icons-material/DriveEta';
 import AddBoxIcon from '@mui/icons-material/AddBox';
 import NotificationsIcon from '@mui/icons-material/Notifications';
-import EmailIcon from '@mui/icons-material/Email';
-
+import InfoIcon from '@mui/icons-material/Info';
+import Information from "./components/Information";
+import { Link } from "react-router-dom";
 const Main = () => {
     return (
         <div className='App'>
             <Navbar>
+
+                <Link to="/Information">
+                    <li className="nav-item">
+                        <InfoIcon
+                            className='icon-button'>
+                            <Information />
+                        </InfoIcon>
+                    </li>
+                </Link>
                 <Navitem icon={<AddBoxIcon
                     onClick={() => window.open('mailto:romelanthonylopez@gmail.com?subject=Subject&body=Body%20goes%20here')}
                     style={{ color: "white" }}></AddBoxIcon>} />
                 <Navitem icon={<NotificationsIcon style={{ color: "white" }}></NotificationsIcon>} />
-                <Navitem icon={<EmailIcon style={{ color: "white" }}></EmailIcon>} />
                 <Navitem icon={<DriveEtaIcon style={{ color: "white" }}></DriveEtaIcon>}>
                     <DropdownMenu >
                     </DropdownMenu>

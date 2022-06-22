@@ -18,6 +18,15 @@ a {
     text-decoration: none;
 }
 
+.listofbrands {
+    font-size: 17px;
+
+}
+
+.listofbrands li {
+    padding-bottom: 15px;
+}
+
 .navbar {
     height: var(--nav-size);
     background-color: var(--bg);
